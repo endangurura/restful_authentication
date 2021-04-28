@@ -1,6 +1,3 @@
-require "restful_authentication/version"
-
-module RestfulAuthentication
-  class Error < StandardError; end
-  # Your code goes here...
-end
+require "authentication"
+require "authentication/by_password"
+require "authentication/by_cookie_token"
